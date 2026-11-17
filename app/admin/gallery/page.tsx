@@ -48,8 +48,8 @@ export default function ManageGalleryPage() {
     setFormData({
       fullName: '',
       phone: 'FOX Hotel',
-      email: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1800&q=88',
-      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1800&q=88',
+      email: '/images/hotel/overview-facade-landscape.jpg',
+      image: '/images/hotel/overview-facade-landscape.jpg',
       category: 'FOX Hotel',
       size: 'standard',
       visibility: true,

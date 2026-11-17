@@ -14,11 +14,19 @@ const navigation = [
   { label: 'Career', href: '/career' },
 ];
 
-export function Brand() {
+export function Brand({ dark }: { dark?: boolean }) {
   return (
-    <Link className="brand" href="/" aria-label="Halla Mohana home">
-      <span className="brand-mark" aria-hidden="true"><i /><i /><i /></span>
-      <span><b>HALLA</b><small>MOHANA</small></span>
+    <Link className="brand" href="/" aria-label="PT Halla Mohana">
+      <img
+        src="/images/logo/logo.png"
+        alt="PT Halla Mohana"
+        className="brand-logo brand-logo-light"
+      />
+      <img
+        src="/images/logo/logo-dark-bg.png"
+        alt="PT Halla Mohana"
+        className="brand-logo brand-logo-dark"
+      />
     </Link>
   );
 }

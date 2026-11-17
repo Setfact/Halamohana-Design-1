@@ -27,7 +27,7 @@ export default function CreateNewsPage() {
     category: 'Corporate Governance',
     excerpt: '',
     description: '<h3>Article Subheading</h3><p>Start writing the news announcement details here...</p>',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=88',
+    image: '/images/mall/atrium-corridor.jpg',
     visibility: true,
   });
 

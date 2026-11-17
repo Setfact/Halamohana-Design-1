@@ -55,8 +55,8 @@ export default function ManageProjectsPage() {
       location: 'Pekanbaru',
       description: '',
       longDescription: '',
-      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1800&q=88',
-      secondaryImage: 'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1800&q=88',
+      image: '/images/hotel/exterior-drone.jpg',
+      secondaryImage: '/images/hotel/rooftop-skypool-evening.jpg',
       facilities: ['Rooms', 'Restaurant', 'Meeting Facilities'],
       visibility: true,
     });
